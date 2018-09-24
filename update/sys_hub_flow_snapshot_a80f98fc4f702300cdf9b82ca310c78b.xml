@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"ab772de5-a593-405a-a165-2b1ea72aa68d.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"d2391725-6132-47d1-9267-d1a19f714d20.record.number","label":"4.1➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"9defa5ce-242b-462c-88a2-267d8d658c94.property_value","label":"1➛property_value","type":"string","base_type":"string"},{"name":"8811ee03-00b9-4088-b336-7eda41066bdd._","label":"2➛calculated_date","reference_display":"calculated_date"},{"name":"cbdaef91-1031-4a5c-9dc3-2a7cfcef8154.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"cbdaef91-1031-4a5c-9dc3-2a7cfcef8154.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Table"},{"name":"cbdaef91-1031-4a5c-9dc3-2a7cfcef8154.Count","label":"3➛Count","reference_display":"Count"},{"name":"ab772de5-a593-405a-a165-2b1ea72aa68d.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Find and Close Long Overdue NeedIt Tasks</name>
+        <parent_flow display_value="Find and Close Long Overdue NeedIt Tasks">e1aad4f84f702300cdf9b82ca310c715</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-24 11:34:10</sys_created_on>
+        <sys_id>a80f98fc4f702300cdf9b82ca310c78b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find and Close Long Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_a80f98fc4f702300cdf9b82ca310c78b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-24 11:34:10</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
